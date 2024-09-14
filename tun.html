@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify Web UI</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Sidebar Menu -->
+    <div class="sidebar">
+      <h1>Spotify</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Search</a></li>
+          <li><a href="#">Your Library</a></li>
+          <li><a href="#">Create Playlist</a></li>
+          <li><a href="#">Liked Songs</a></li>
+          <li><a href="#">Your Episodes</a></li>
+        </ul>
+      </nav>
+      <div class="install-app">
+        <button>Install App</button>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+      <header>
+        <h2>Good morning</h2>
+        <div class="playlist-cards">
+          <div class="card">Liked Songs</div>
+          <div class="card">Neffex Playlist</div>
+          <div class="card">K/DA</div>
+        </div>
+      </header>
+
+      <!-- Shows Section -->
+      <section class="shows">
+        <h3>Shows you might like</h3>
+        <div class="shows-grid">
+          <div class="show-card">Weekly Motivation</div>
+          <div class="show-card">MEDITATION SELF</div>
+          <div class="show-card">Words Beyond Action</div>
+          <div class="show-card">The Alexa Show</div>
+          <div class="show-card">The Stories of ...</div>
+        </div>
+      </section>
+
+      <!-- Now Playing Bar -->
+      <div class="now-playing-bar">
+        <div class="song-info">
+          <p>Dreaming On - NEFFEX</p>
+        </div>
+        <div class="controls">
+          <button>&#x23EF;</button>
+          <!-- Play/Pause button -->
+          <button>&#x23EA;</button>
+          <!-- Rewind button -->
+          <button>&#x23E9;</button>
+          <!-- Forward button -->
+        </div>
+        <div class="volume">
+          <input type="range" min="0" max="100" value="50" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
